@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(morgan('dev'));
 
 
-app.use(require('./routes'));
+app.use(require('./routes/routes'));
 
 app.listen(3000, () => {
     console.log('Servidor rodando em 3000')
