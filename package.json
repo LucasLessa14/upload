@@ -1,0 +1,26 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasLessa14/upload.git"
+  },
+  "author": "Lucas Lessa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasLessa14/upload/issues"
+  },
+  "homepage": "https://github.com/LucasLessa14/upload#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  }
+}
